@@ -1,0 +1,312 @@
+/****** GENERAL ******/
+
+html {
+  top: 0;
+  height: 100%;
+
+}
+
+body {
+ background: url(../img/contemporary_china_2.png); 
+  margin: 0;
+  top: 0;
+  height: 100%;
+  
+}
+.header {
+  height: 300px;  
+  margin: 0 5% 0 5%;
+  background-color: black;
+  padding: 20px 0 0 0;
+}
+
+.logo{
+  content: url(../img/Coffee-logo.jpg);
+  text-align: center;
+  margin: auto;
+  width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  
+}
+
+.icon-facebook {
+  content: url(../img/facebook.png); 
+  padding: 0 0 5px 5px;
+  display: block;
+
+}
+.icon-instagram {
+  content: url(../img/instagram.png);
+  padding: 0 0 0 5px;
+  display: block;
+
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+ul {
+  list-style-type: none;
+
+}
+li {
+  display: inline;
+  padding: 5px;
+
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Bad Script', cursive;
+  font-size: 1.2em;
+  
+}
+.wrapper {
+  margin:0 5%;
+  min-height: 100%;
+}
+.main-image {
+  content: url(../img/coffee-2.jpg);
+  max-height: 600px;
+  width: 100%;
+  margin: 0;
+ 
+}
+p {
+  padding: 0 5% 5% 5%;
+  font-family: 'Economica', sans-serif;
+  font-size: 1.5em;
+  
+ }
+a {
+  font-family: 'Economica', sans-serif;
+ 
+
+}
+h2 {
+  margin: 0;
+  padding: 0 5% 0 5% ;
+  font-family: 'Economica', sans-serif;
+  font-size: 2.5em;
+  color: #d0a888;  
+
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.coffee-image-1 {
+  content: url(../img/coffee-4.jpg);
+  max-width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 5% 0 5% 0;
+  
+}
+.coffee-image-2 {
+  content: url(../img/coffee-5.jpeg);
+  max-width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 5% 0 5% 0;
+  
+}
+
+/****** CONTACT PAGE ******/
+
+.contact-content-1 {
+  margin: auto;
+  text-align: center;
+
+}
+.contact-content-2 {
+  margin: auto;
+
+}
+.contact-h2 {
+  text-align: center;
+  font-size: 2em;
+
+}
+.content-li {
+   display: block;
+   text-align: center;
+ 
+}
+.content-li a {
+  color: black;
+  font-family: 'Economica', sans-serif;
+  
+
+} 
+/*
+ #googleMap {
+   max-width: 100%;
+   height: 400px;
+  
+}
+
+*/
+/****** ABOUT PAGE ******/
+
+.coffee-image-3 {
+  content: url(../img/coffee-3.jpg);
+  max-width: 80%;
+  max-height: 500px;
+  margin: auto;
+  padding-bottom: 5%;
+  
+}
+ .image-barista {
+    content: url(../img/barista.jpg);
+    max-width: 500px;
+    max-height: 450px;
+    margin: auto;
+  padding-bottom: 5%;
+
+}
+ 
+/****** OPENING HOURS ******/
+ 
+.wrapper li {
+  display: block;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  font-size: 2em;
+ 
+
+}
+.wrapper h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+.wrapper ul {
+  margin-top: 4%;
+  
+
+}
+
+.opening-hrs-content {
+  margin: 10% 0 10% 0;
+
+}
+
+/****** FOOTER ******/
+
+ footer {
+  height: 75px;
+  border-top: 2px solid black;
+  margin: 0 10%;
+  text-align: center;
+  padding-top: 40px;
+
+}
+.copy-right {
+  font-family: 'Bad Script', cursive;  
+  
+}
+/****** CLEARFIX ******/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 1120px) {
+  
+  /****** GENERAL RESPONSIVE ******/
+  
+  .header {
+   height: 300px;
+  
+  }
+  
+/****** HOME PAGE RESPONSIVE******/
+  
+  .coffee-image-1 {
+    width: 500px;
+    height: 300px;
+    padding: 0 0 0 0;  
+    margin: 10% auto ;
+ 
+  }
+  .coffee-image-2 {
+    width: 500px;
+    height: 300px;
+    padding: 0 0 0 0;  
+    margin: 10% auto;
+      
+  }
+  
+  /****** CONTACT PAGE RESPONSIVE ******/
+ 
+  
+  .contact-content-1 {
+   display: flex;
+   flex-direction: column;
+   float: left;
+   margin: 10% 0% 10% 20%;
+    
+}
+  
+  .contact-content-1 a {
+    font-size: 2em;
+    padding: 5% ;
+  
+  
+  }
+  .contact-content-1 h2 {
+    font-size: 3em;
+  
+  
+  }
+  .contact-content-2 a {
+    font-size: 2em;
+    padding: 5% 0 0 0;
+  
+  
+  }
+  .contact-content-2 h2 {
+    font-size: 3em;
+  }
+  .contact-content-2 ul {
+    margin-top: 0;
+  
+  }
+ .contact-content-2 {
+    
+  display: flex;
+  flex-direction: column;
+  float: right;
+   margin: 10% 20% 10% 0;
+  
+}
+  /****** ABOUT PAGE RESPONSIVE******/
+  
+  .about-content {
+    margin: 5% 0 0 0;
+  
+  }
+  .about-info  {
+    float: right;
+    max-width: 50%;
+    padding: 2% 5% 0 0;
+  
+  }
+  .image-barista {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 5% 0 5% 5%; 
+    
+
+  }
+  
+}
