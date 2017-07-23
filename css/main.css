@@ -45,7 +45,7 @@ nav {
   text-align: center;
   margin-bottom: 0;
   font-family: 'Bad Script', cursive;
-  padding: 5%;
+  padding: 0 5% 5% 5%;
 }
 
 ul {
@@ -159,8 +159,8 @@ nav a{
 
  .image-barista {
     content: url(../img/barista.jpg);
-    max-width: 350px;
-    max-height: auto;
+    max-width: 400px;
+    max-height: 400px;
     margin: auto;
     padding-bottom: 5%;
  }
@@ -275,20 +275,19 @@ nav a{
   /****** ABOUT PAGE RESPONSIVE******/
 
   .about-content {
-    margin: auto;
     margin: 5% 0 0 0;
   }
 
   .about-info  {
     float: right;
-    max-width: 40%;
-    padding: 2% 5% 0 0;
+    max-width: 50%;
+    padding: 2% 0 0 0;
   }
 
   .image-barista {
     float: left;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
     padding: 5% 5% 5% 5%;
     margin: auto;
   }
