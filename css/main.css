@@ -176,13 +176,13 @@ nav a{
   margin-top: 25px;
 }
 .wrapper-opening-hours ul {
-  margin-top: 4%;
+  margin: 4% auto;
 
 
 }
 
 .opening-hrs-content {
-  margin: 10% 0 10% 0;
+  margin: 10% auto ;
 
 }
 
@@ -289,7 +289,7 @@ nav a{
     float: left;
     width: 500px;
     height: 500px;
-    padding: 5% 0 5% 5%;
+    padding: 5% 5% 5% 5%;
 
 
   }
