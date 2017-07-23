@@ -168,6 +168,8 @@ nav a{
   text-align: center;
   font-family: 'Economica', sans-serif;
   font-size: 1.5em;
+  margin: 0;
+  padding: 0;
 
 
 }
@@ -177,12 +179,14 @@ nav a{
 }
 .wrapper-opening-hours ul {
   margin: 4% auto;
+  padding: 0;
 
 
 }
 
 .opening-hrs-content {
   margin: 10% auto ;
+  padding: 0;
 
 }
 
@@ -290,7 +294,7 @@ nav a{
     width: 500px;
     height: 500px;
     padding: 5% 5% 5% 5%;
-
+    margin: auto;
 
   }
 
