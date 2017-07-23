@@ -48,6 +48,7 @@ nav {
   text-align: center;
   margin-bottom: 0;
   font-family: 'Bad Script', cursive;
+  padding: 5%;
 }
 ul {
   list-style-type: none;
@@ -104,7 +105,7 @@ h2 {
 .coffee-image-1 {
   content: url(../img/coffee-4.jpg);
   max-width: 80%;
-  height: 300px;
+  max-height: 300px;
   margin: auto;
   padding: 5% 0 5% 0;
 
@@ -112,7 +113,7 @@ h2 {
 .coffee-image-2 {
   content: url(../img/coffee-5.jpeg);
   max-width: 80%;
-  height: 300px;
+  max-height: 300px;
   margin: auto;
   padding: 5% 0 5% 0;
 
@@ -151,18 +152,10 @@ nav a{
 
 /****** ABOUT PAGE ******/
 
-.coffee-image-3 {
-  content: url(../img/coffee-3.jpg);
-  max-width: 80%;
-  max-height: 500px;
-  margin: auto;
-  padding-bottom: 5%;
-
-}
  .image-barista {
     content: url(../img/barista.jpg);
-    max-width: 500px;
-    max-height: 450px;
+    max-width: 400px;
+    max-height: 400px;
     margin: auto;
   padding-bottom: 5%;
 
@@ -198,7 +191,7 @@ nav a{
  footer {
   height: 75px;
   border-top: 2px solid black;
-  margin: 0 10%;
+  margin: 5% 10% 0 10%;
   text-align: center;
   padding-top: 40px;
 
@@ -283,8 +276,8 @@ nav a{
   /****** ABOUT PAGE RESPONSIVE******/
 
   .about-content {
-    margin: 5% 0 0 0;
-
+    margin: auto;
+  margin: 5% 0 0 0;
   }
   .about-info  {
     float: right;
@@ -324,6 +317,7 @@ nav a{
   .wrapper-opening-hours h2 {
     text-align: center;
     margin-top: 25px;
+    padding: 0;
   }
   .wrapper-opening-hours ul {
     margin-top: 4%;
@@ -333,6 +327,7 @@ nav a{
 
   .opening-hrs-content {
     margin: 10% 0 10% 0;
+    padding: 0;
 
   }
 }
