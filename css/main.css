@@ -47,7 +47,7 @@ body {
 nav {
   text-align: center;
   margin-bottom: 0;
-
+  font-family: 'Bad Script', cursive;
 }
 ul {
   list-style-type: none;
@@ -125,16 +125,19 @@ nav a{
 .contact-content-1 {
   margin: auto;
   text-align: center;
-
+  padding: 15px;
+}
+.contact-content-1 p {
+  font-size: 1.5em;
+}
+.contact-content-2 ul {
+  padding: 0;
 }
 .contact-content-2 {
   margin: auto;
-
 }
 .contact-h2 {
   text-align: center;
-
-
 }
 .content-li {
    display: block;
@@ -144,14 +147,7 @@ nav a{
 .content-li a {
   color: black;
   font-family: 'Economica', sans-serif;
-
-
 }
-p {
-  text-align: center;
-  font-size: 1.5em;
-}
-
 
 /****** ABOUT PAGE ******/
 
@@ -178,7 +174,7 @@ p {
   display: block;
   text-align: center;
   font-family: 'Economica', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
 
 
 }
@@ -207,7 +203,7 @@ p {
   padding-top: 40px;
 
 }
-.copy-right {
+.copy-right a {
   font-family: 'Bad Script', cursive;
 
 }
@@ -246,46 +242,42 @@ p {
   }
 
   /****** CONTACT PAGE RESPONSIVE ******/
-
+.contact-wrapper {
+   display: flex;
+   flex-direction: row;
+}
 
   .contact-content-1 {
-   display: flex;
-   flex-direction: column;
-   float: left;
-   margin: 10% 0% 10% 20%;
+
+   margin: 10% auto;
 
 }
 
   .contact-content-1 a {
-    font-size: 2em;
     padding: 5% 0;
 
 
   }
   .contact-content-1 h2 {
-    font-size: 3em;
+    font-size: 2em;
 
 
   }
   .contact-content-2 a {
-    font-size: 2em;
     padding: 5% 0 0 0;
 
 
   }
   .contact-content-2 h2 {
-    font-size: 3em;
+    font-size: 2em;
   }
   .contact-content-2 ul {
     margin-top: 0;
+    padding: 0;
 
   }
  .contact-content-2 {
-
-  display: flex;
-  flex-direction: column;
-  float: right;
-   margin: 10% 20% 10% 0;
+   margin: 10% auto;
 
 }
   /****** ABOUT PAGE RESPONSIVE******/
