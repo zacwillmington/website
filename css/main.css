@@ -159,10 +159,10 @@ nav a{
 
  .image-barista {
     content: url(../img/barista.jpg);
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: auto;
     margin: auto;
-  padding-bottom: 5%;
+    padding-bottom: 5%;
  }
 
 /****** OPENING HOURS ******/
